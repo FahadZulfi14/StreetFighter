@@ -1,0 +1,69 @@
+*{
+ margin: 0;
+padding: 0;
+overflow: hidden;
+
+}
+
+.main{
+    background-image: url('pic/backg.gif');
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.ryu{
+    background-image: url('pic/stand.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 193px;
+    height: 299px;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+
+.jump{
+    animation: ryu .6s linear;
+}
+
+@keyframes ryu {
+    0%{bottom: 50px;}
+
+    50%{bottom: 422px;}
+
+    100%{bottom: 0px;}
+}
+
+.box{
+    background-image: url('pic/kick.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 393px;
+    height: 299px;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+
+.sweep{
+    background-image: url('pic/sitting.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 393px;
+    height: 299px;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
+
+.boxUp{
+    background-image: url('pic/ryu-cfe.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 293px;
+    height: 495px;
+    position: absolute;
+    bottom: 50px;
+    left: 200px;
+}
